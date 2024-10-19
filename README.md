@@ -18,6 +18,9 @@ Auto Dark Mode is a browser extension that automatically detects bright and whit
 ### Chrome, Edge, and Opera
 
 1. Clone or download this repository.
+   ```bash
+   git clone https://github.com/TaiHoag/AutoDarkMode.git
+   ```
 2. Open your browser and navigate to the Extensions page:
    - For Chrome: `chrome://extensions/`
    - For Edge: `edge://extensions/`
@@ -62,10 +65,7 @@ Auto Dark Mode is a browser extension that automatically detects bright and whit
 
 ### Steps:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/TaiHoag/AutoDarkMode.git
-   ```
+1. Clone this repository
 2. Make changes to the code in your preferred code editor.
 3. Load the extension into your browser as described above.
 
