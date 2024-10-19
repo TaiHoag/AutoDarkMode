@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Dark Mode</title>
+    <style>
+      body {
+        width: 250px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+      }
+
+      h3 {
+        margin-top: 0;
+      }
+
+      label {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .slider-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      input[type="range"] {
+        width: 150px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      button:hover {
+        background-color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Auto Dark Mode</h3>
+    <label for="darkModeToggle">
+      <input type="checkbox" id="darkModeToggle" />
+      Enable Dark Mode
+    </label>
+
+    <label for="brightnessSlider">Brightness:</label>
+    <div class="slider-container">
+      <input
+        type="range"
+        id="brightnessSlider"
+        min="50"
+        max="150"
+        value="100"
+      />
+      <span id="brightnessValue">100%</span>
+    </div>
+
+    <label for="contrastSlider">Contrast:</label>
+    <div class="slider-container">
+      <input type="range" id="contrastSlider" min="50" max="150" value="100" />
+      <span id="contrastValue">100%</span>
+    </div>
+
+    <button id="saveSettings">Save Settings</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

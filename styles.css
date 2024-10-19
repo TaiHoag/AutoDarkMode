@@ -1,0 +1,130 @@
+/* General background and text color for all elements */
+.dark-mode,
+.dark-mode * {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border-color: #444 !important;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Links styling */
+.dark-mode a {
+  color: #66b2ff !important;
+}
+
+/* Headings (h1, h2, etc.) */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  color: #ffffff !important;
+}
+
+/* Input fields, textareas, buttons, and select boxes */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select,
+.dark-mode button {
+  background-color: #333 !important;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+}
+
+/* Tables and table elements */
+.dark-mode table,
+.dark-mode th,
+.dark-mode td {
+  background-color: #2c2c2c !important;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+}
+
+/* Blockquotes and code elements */
+.dark-mode blockquote {
+  background-color: #2b2b2b !important;
+  color: #e0e0e0 !important;
+  border-left: 4px solid #555 !important;
+}
+
+.dark-mode code,
+.dark-mode pre {
+  background-color: #2e2e2e !important;
+  color: #ffffff !important;
+}
+
+/* Adjust brightness of images */
+.dark-mode img,
+.dark-mode video {
+  filter: brightness(0.7) !important;
+}
+
+/* Ensure buttons and form elements are styled properly */
+.dark-mode button {
+  background-color: #444 !important;
+  color: #ffffff !important;
+  border: 1px solid #555 !important;
+  cursor: pointer;
+}
+
+.dark-mode button:hover {
+  background-color: #555 !important;
+}
+
+/* Dark mode for all divs and spans */
+.dark-mode div,
+.dark-mode span {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+
+/* Adjust for different containers, like sections and articles */
+.dark-mode section,
+.dark-mode article,
+.dark-mode header,
+.dark-mode footer,
+.dark-mode nav,
+.dark-mode aside {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* Apply dark mode to lists */
+.dark-mode ul,
+.dark-mode ol {
+  background-color: inherit !important;
+  color: inherit !important;
+  list-style: none;
+}
+
+.dark-mode ul li::before {
+  content: "•";
+  color: #66b2ff !important;
+}
+
+.dark-mode ol li {
+  color: #ffffff !important;
+}
+
+/* Styling for figures and figcaptions */
+.dark-mode figure {
+  background-color: #2e2e2e !important;
+}
+
+.dark-mode figcaption {
+  color: #cccccc !important;
+}
+
+/* Style hr (horizontal rule) */
+.dark-mode hr {
+  border: 1px solid #444 !important;
+}
+
+/* Additional elements that may need to be styled */
+.dark-mode p,
+.dark-mode li,
+.dark-mode label,
+.dark-mode option {
+  color: #ffffff !important;
+}
